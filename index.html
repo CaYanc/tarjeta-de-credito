@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class=" bg-[#ddd]">
+    <main class="contenedor flex flex-col bg-[#ddd] h-screen items-center p-[10px] gap-[20px]">
+
+        <!-- tarjeta 1 -->
+        <div id="tarjetas" class="flex flex-col gap-[20px]">
+            <div id="div-input">
+                <label id="label" for="cardname ">Card Name</label>
+                <input id="input" class="" type="text" name="cardname" placeholder="Give this card a name">
+            </div>
+
+            <div class="img-trajet flex flex-col gap-[20px] bg-[#eee] rounded-[20px] p-[20px]">
+                <div class="flex justify-between">
+                    <img src="img/Frame.png" alt="">
+                    <img src="img/Chip.png" alt="">
+                </div>
+                <div class="self-center" style="font-size: 30px;">0000 0000 0000 0000</div>
+                <div class="flex justify-between">
+                    <p>Name Surname <br> MM / YY</p>
+                    <div class="bg-white rounded-[10px] p-[10px]">
+                        <img src="img/Mastercard.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="formulario" class="">
+                <div id="div-input" class="">
+                    <label id="label" for="firstname">First Name</label>
+                    <input id="input" class="" type="text" name="firstname" placeholder="Name on card">
+                </div>
+                <div id="div-input">
+                    <label id="label" for="surname">Surname</label>
+                    <input id="input" class="" type="text" name="surname" placeholder="Surname on card">
+                </div>
+                <div id="div-input" class="relative">
+                    <label id="label" for="number">Card Number</label>
+                    <input id="input" class="" type="text" name="number" placeholder="**** **** **** ****">
+                    <div class="absolute w-[8%] top-[20%] right-[2%]">
+                        <img class="" src="img/Mastercard.png" alt="">
+                    </div>
+                </div>
+                <div id="div-input">
+                    <label id="label" for="month">Month</label>
+                    <select  id="input" name="month" id="">
+                        <option value="">Select</option>
+                        <option value="">Select2</option>
+                        <option value="">Select3</option>
+                    </select>
+                </div>
+                <div id="div-input">
+                    <label id="label" for="year">Year</label>
+                    <select  id="input" name="year" id="">
+                        <option value="">Select</option>
+                        <option value="">Select2</option>
+                        <option value="">Select3</option>
+                    </select>
+                </div>
+                <div id="div-input">
+                    <label id="label" for="cvc">CVC</label>
+                    <input id="input" class="" type="text" name="cvc" placeholder="***">
+                </div>
+            </div>
+
+            <button id="botonred" class="">Enter</button>
+        </div>
+        <!-- tarjeta 2 -->
+        <div id="tarjetas" class="flex flex-col gap-[20px]">
+            <p class="h1 font-black text-[40px] text-center" sty>Login</p>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet, fermentum lorem. </p>
+           <div class="flex justify-between">
+                <div class="p-[10px] rounded-[7px] border-[3px] flex justify-center w-[30%]">
+                    <img src="img/apple.png" alt="">
+                </div>
+                <div class="p-[10px]  rounded-[7px] border-[3px] flex justify-center w-[30%]">
+                    <img src="img/facebbok.png" alt="">
+                </div>
+                <div class="p-[10px]  rounded-[7px] border-[3px] flex justify-center w-[30%]">
+                    <img src="img/GG.png" alt="">
+                </div>
+           </div>
+
+           <div class="relative py-[20px]">
+            <hr class="">
+            <p class="text-[#ccc] bg-white p-[4px] absolute top-[10%] left-[45%]">OR</p>
+           </div>
+
+            <div id="div-input">
+                <label id="label" for="name">Name</label>
+                <input id="input" class="" type="text" name="name" placeholder="yourmail@gmail.com">
+                <div class="absolute top-[30%] right-[10px]">
+                    <img src="img/Email.png" alt="">
+                </div>
+            </div>
+            <div id="div-input">
+                <label id="label" for="name2">Card Name</label>
+                <input id="input" class="" type="text" name="name2" placeholder="***************">
+                <div class="absolute top-[30%] right-[10px]">
+                    <img src="img/Eye.png" alt="">
+                </div>
+            </div>
+
+            <div>
+                <p class=""><input type="checkbox" name="checkbox">Remember me</p>
+            
+                <a href="" class="text-[red] frontera-b-4">Forgot password?</a>
+            </div>
+
+            <button id="botonred" class="">Enter</button>
+        </div>
+        <!-- tarjeta 3 -->
+        <div id="tarjetas" class="flex flex-col gap-[20px]">
+            <p class="h1 font-black text-[40px] text-center" >Welcome</p>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet, fermentum lorem. </p>
+            <div class="flex justify-between">
+                <div id="div-input" class="w-[48%]">
+                    <label id="label" for="firname">First name</label>
+                    <input id="input" class="" type="text" name="firname" placeholder="Your name">
+                </div>
+                <div id="div-input" class="w-[48%]">
+                    <label id="label" for="lasname">Last name</label>
+                    <input id="input" class="" type="text" name="lasname" placeholder="Your last name">
+                </div>
+            </div>
+            <div class="flex flex-col gap-[20px] relative">
+                
+                <div id="div-input">
+                    <label id="label" for="name">Name</label>
+                    <input id="input" class="" type="text" name="name" placeholder="yourmail@gmail.com">
+                    <div class="absolute top-[30%] right-[10px]">
+                        <img src="img/Email.png" alt="">
+                    </div>
+                </div>
+                <div id="div-input">
+                    <label id="label" for="name2">Card Name</label>
+                    <input id="input" class="" type="text" name="name2" placeholder="***************">
+                    <div class="absolute top-[30%] right-[10px]">
+                        <img src="img/Eye.png" alt="">
+                    </div>
+                </div>
+                <div id="div-input" class="">
+                    <div class="absolute top-[30%] left-[10px]">
+                        <img src="img/ubi.png" alt="">
+                    </div>
+                    <label id="label" for="month">City</label>
+                    <select  id="input" name="month" id="" style="padding-left:40px ;">
+                        <option value="">Select city</option>
+                        <option value="">Select2</option>
+                        <option value="">Select3</option>
+                    </select>
+                    
+                </div>
+                <div id="div-input">
+                    <label id="label" for="firname">First name</label>
+                    <input id="input" class="" type="date" name="firname" placeholder="Your name">
+                </div>
+                <div id="div-input" class="">
+                    <div class="absolute top-[30%] left-[10px]">
+                        <img src="img/eeuu.png" alt="">
+                    </div>
+                    <label id="label" for="month">City</label>
+                    <select  id="input" name="month" id="" style="padding-left:40px ;">
+                        <option value="">Your nationality</option>
+                        <option value="">Select2</option>
+                        <option value="">Select3</option>
+                    </select>
+                    
+                </div>
+
+            </div>
+            <div>
+                <p class=""><input type="checkbox" name="checkbox">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<b> Gravida eget ultricies</b> pharetra scelerisque duis cursus.</p>
+
+            </div>
+     
+            <button id="botonred" class="">Enter</button>
+        </div>
+        <!-- tarjeta 4 -->
+        <div id="tarjetas" class="flex flex-col gap-[20px]"">
+            <p class="h1 font-black text-[40px] text-center" >Forgot password</p>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet, fermentum lorem. </p>
+
+            <div id="div-input">
+                <label id="label" for="name">E-mail</label>
+                <input id="input" class="" type="text" name="name" placeholder="yourmail@gmail.com">
+                <div class="absolute top-[30%] right-[10px]">
+                    <img src="img/Email.png" alt="">
+                </div>
+            </div>
+
+            <button id="botonred" class="">Enter</button>
+
+            <p class="text-center">Already have an account? Login</p>
+        </div>
+        <!-- tarjeta 5 -->
+        <div id="tarjetas" class="flex flex-col gap-[20px]">
+            <p class="h1 font-black text-[40px] text-center" >Contact</p>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet, fermentum lorem. </p>
+            <div class="flex justify-between">
+                <div id="div-input" class="w-[48%]">
+                    <label id="label" for="firname">First name</label>
+                    <input id="input" class="" type="text" name="firname" placeholder="Your name">
+                </div>
+                <div id="div-input" class="w-[48%]">
+                    <label id="label" for="lasname">Last name</label>
+                    <input id="input" class="" type="text" name="lasname" placeholder="Your last name">
+                </div>
+            </div>
+            <div class="flex flex-col gap-[20px] relative">
+                
+                <div id="div-input">
+                    <label id="label" for="name">E-mail</label>
+                    <input id="input" class="" type="text" name="name" placeholder="yourmail@gmail.com">
+                    <div class="absolute top-[30%] right-[10px]">
+                        <img src="img/Email.png" alt="">
+                    </div>
+                </div>
+                <div id="div-input" class="">
+                    <div class="absolute top-[30%] left-[10px]">
+                        <img src="img/eeuu.png" alt="">
+                    </div>
+                    <input id="input" class="" type="text" name="name" placeholder="+1 (555) 000-0000" style="padding-left: 40px;">
+                    <div class="absolute top-[30%] right-[10px]">
+                        <img src="img/call.png" alt="">
+                    </div>
+                    
+                </div>
+                <div id="div-input" class="">
+                    <label id="label" for="lasname">Message</label>
+                    <input id="input" class="" type="text" name="lasname" placeholder="Your message">
+                </div>
+
+            <button id="botonred" class="">Enter</button>
+        </div>
+        </div>
+
+        <!-- holaaaaaaaaaa -->
+       
+        <div class="bg-black p-[40px] rounded-[40px] flex flex-col gap-[40px] w-[500px] ">
+            <div class="flex justify-between">
+                <div class="">
+                    <p id="colortext" class="font-[900] text-white text-[50px]" >Hello, <br>
+                        I’m Burak </p>
+                    <p><a href="" class="text-white  border-b">burakerngoulu.com</a></p>    
+                </div>
+                <div class="w-[30%]">
+                    <img src="img/Ellipse 10.png" alt="">
+                </div>
+            </div>
+            <p class="text-white text-[25px]">
+                I’m an UI/UX designer for 15 years. I’ve made designs for Starbucks, <b>Unilever, Emirates</b> and some startups.
+            </p>
+        </div>
+
+    </main>
+</body>
+</html>
+
+
+
+<!-- <div id="tarjetas" class="">
+    <div id="div-input">
+        <label id="label" for="*">Card Name</label>
+        <input id="input" class="" type="text" name="*" placeholder="*">
+    </div>
+
+    <button id="botonred" class="">Enter</button>
+</div> -->
